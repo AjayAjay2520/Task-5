@@ -7,8 +7,8 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color:#4b4b4b;
+body{  
+
 }
 
 header{
@@ -49,7 +49,8 @@ header{
 }
 .cart-count{
   position: absolute;
-  background-color: #ed0c0c;
+  color: #ed0c0c;
+  background-color: #fff;
   top: -5px;
   right: 0;
   padding: 3px;
@@ -58,6 +59,7 @@ header{
   line-height:20px ;
   border-radius: 50%;
   z-index: 99;
+  font-weight: 1000;
 }
 
 #cart-icon{
@@ -76,13 +78,16 @@ img{
   margin: auto;
   width: 100%;
   margin-top: 20px;
+  
 }
 
 h2.title{
+  text-align: center;
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
-  color:#ffffff;
+  color:#4b4b4b;
+
 }
 
 .shop-content{
@@ -95,7 +100,8 @@ h2.title{
 
 .book-box{
   position: relative;
-  background-color: #fff;
+  background-color: #c5c3c3;
+  color: black;
   padding: 10px;
   box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
   border-radius: 3px;
@@ -127,7 +133,7 @@ transform: scale(1.2);
 
 .add-cart{
   position: absolute;
-  width: 80px;
+  width: 100px;
   bottom: 15px;
   right: 10px;
   background-color: #2ed573;
@@ -136,10 +142,12 @@ transform: scale(1.2);
   font-size: 1.5rem;
   cursor: pointer;
   transition: 0.5s;
+  border-radius: 5px;
 }
 
 .add-cart:hover{
-  background-color:rgba(255, 0, 0, 0.786);
+  background-color:white;
+  color: #2f3542;
 }
   
 
@@ -246,6 +254,7 @@ transform: scale(1.2);
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
+  margin-left: 0%;
 }
 .btn-buy:hover{
   background-color: #48c68f;
